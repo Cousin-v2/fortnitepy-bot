@@ -1053,7 +1053,7 @@ class CosmeticCommands(commands.Cog):
                 asset=new_cosmetic.id
             )
 
-            await ctx.send(f"Skin set to {new_cosmetic.id}.")
+            await ctx.send(f"{cosmetic_type}s set to {new_cosmetic.id}.")
             print(self.bot.message % f"Skin set to: {new_cosmetic.name}!")
 
             await asyncio.sleep(3)
